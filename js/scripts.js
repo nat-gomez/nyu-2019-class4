@@ -100,6 +100,9 @@ for (var i=1; i<12; i++) {
 
 // a little object for looking up neighborhood center points
 var neighborHoodLookup = {
+  'park-slope': [-73.979702, 40.671199],
+  'morningside-heights': [-73.962750, 40.809099],
+  'fidi': [-74.007468, 40.710800],
   'queensboro-hill': [-73.814049, 40.729503],
 }
 
