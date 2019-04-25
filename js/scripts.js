@@ -100,6 +100,9 @@ for (var i=1; i<12; i++) {
 
 // a little object for looking up neighborhood center points
 var neighborHoodLookup = {
+  'park-slope': [-73.979702, 40.671199],
+  'morningside-heights': [-73.962750, 40.809099],
+  'fidi': [-74.007468, 40.710800],
   'queensboro-hill': [-73.814049, 40.729503],
 }
 
@@ -126,7 +129,7 @@ map.on('style.load', function() {
   // this sets up the geojson as a source in the map, which I can use to add visual layers
   map.addSource('queensboro-hill-pluto', {
     type: 'geojson',
-    data: './data/queensboro_hill.geojson',
+    data: './data/queensboro-hill-pluto.geojson',
   });
 
   // add a custom-styled layer for tax lots
